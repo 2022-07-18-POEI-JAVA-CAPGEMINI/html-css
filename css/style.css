@@ -3,6 +3,10 @@ p {
   color: red;
 }
 
+#titre1 {
+  font-style: normal;
+}
+
 .text-italic {
   font-style: italic;
 }
