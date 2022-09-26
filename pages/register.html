@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>S'inscrire</title>
+  </head>
+  <body>
+    <h1>Créer votre compte</h1>
+    <form>
+      <!-- 
+            - nom
+            - prenom
+            - email
+            - Actifs
+            - numéro de téléphone
+            - Biographie
+            - Pays
+         -->
+      <div>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" />
+      </div>
+
+      <div>
+        <label for="prenom">Prenom :</label>
+        <input type="text" id="prenom" />
+      </div>
+      <div>
+        <label for="email">Email :</label>
+        <input placeholder="Ex : chris@gmail.com" type="email" id="email" />
+      </div>
+      <div>
+        <label for="actif">Actif :</label>
+        <div><input value="oui" type="radio" name="actif" id="" />Oui</div>
+        <div><input value="non" type="radio" name="actif" id="" />Non</div>
+      </div>
+      <div>
+        <label for="phone">Numéro de téléphone :</label>
+        <input placeholder="+33xxxxxxx" type="number" id="phone" />
+      </div>
+      <div>
+        <label for="bio">Bio :</label>
+        <textarea id="bio"></textarea>
+      </div>
+      <div>
+        <label for="pays">Pays : </label>
+        <select id="pays">
+          <option value="fr">France</option>
+          <option value="it">Italie</option>
+          <option value="cn">Chine</option>
+          <option value="jpn">Japon</option>
+          <option value="be">Belgique</option>
+        </select>
+      </div>
+      <button type="submit">Envoyer</button>
+      <!-- <input type="submit" value="Envoyer" /> -->
+    </form>
+  </body>
+</html>
