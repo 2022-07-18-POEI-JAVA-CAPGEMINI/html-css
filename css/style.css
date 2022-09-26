@@ -16,11 +16,66 @@
 } */
 
 /* Tous les <div> enfants directs d'une classe .technos */
-.technos > div {
+/* .technos > div {
   color: red;
-}
+} */
 
 /* Tous les <div> enfants  d'une classe .technos */
-.technos div {
+/* .technos div {
   color: red;
+} */
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  /* Couleur de fond */
+  background-color: coral;
+}
+
+main {
+  background-color: cornsilk;
+}
+
+.title {
+  /* Couleur de la police */
+  color: crimson;
+}
+
+.underline {
+  /* Propriété qui permet de souligner, surligner, ou barrer un text */
+  text-decoration: underline;
+}
+
+p {
+  /* Taille de la police en pixel */
+  font-size: 20px;
+}
+
+.technos__list > ul {
+  font-weight: bold;
+}
+
+.technos {
+  /* Bordures */
+  border: 2px solid black;
+
+  /* Hauteur */
+  height: 700px;
+
+  /* Largeur */
+  width: 500px;
+
+  /* Marges supéroeirs */
+  margin-top: 50px;
+
+  /* Maerges inféfieurs */
+  margin-bottom: 45px;
+
+  /* Marges à gauche */
+  margin-left: 100px;
+
+  /* Padding : marges internes */
+  padding: 20px;
 }
